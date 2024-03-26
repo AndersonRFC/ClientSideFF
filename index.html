@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebSocket Chat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <button id="btn">OK</button>
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="message-input">
+            <button id="send-button">Enviar</button>
+        </div>
+        <div class="chat">
+            Este é o início das mensagens:
+            <ul id="message-list">
+                
+            </ul>
+        </div>        
+    </div>
 
     <script src="script.js"></script>
 </body>
