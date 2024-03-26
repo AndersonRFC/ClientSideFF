@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:5084/ws');
+const socket = new WebSocket('ws://localhost:5072/ws');
 
 // Evento que é chamado quando a conexão WebSocket é aberta
 socket.onopen = function(event) {
